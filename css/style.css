@@ -396,7 +396,7 @@ header {
 
 #footer {
   width: 100%;
-  background: #efefef;
+  background: #fff;
   padding: 100px 0px;
   z-index: 10;
   position: relative; }
@@ -511,8 +511,7 @@ header {
         body #info .inner article:nth-of-type(4) {
           height: 40vw; }
   body #brand .inner {
-    height: 220px;
-    padding: 70px 0px; }
+    padding: 120px 0px; }
     body #brand .inner h1 {
       width: 90%;
       font: 2.4vw/1 'Raleway', sans-serif; }
