@@ -28,10 +28,11 @@ input, a, button {
   position: fixed;
   width: 100%;
   height: 30px;
-  background: lightslategray;
-  font: 14/30px "Noto Sans KR";
+  background: #005c57;
+  font: bold 14px/30px "Noto Sans KR";
   color: #fff;
   text-align: center;
+  left: 0px;
   top: -30px;
   z-index: 10; }
 
@@ -226,7 +227,7 @@ header {
   margin: 0px auto;
   z-index: 10;
   position: relative;
-  padding: 150px 0px; }
+  padding: 180px 0px; }
   #grid h1 {
     font: bold 30px/1 'Raleway', sans-serif;
     color: #000;
@@ -250,7 +251,7 @@ header {
       #grid article > div:hover {
         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1); }
       #grid article > div h2 {
-        font: bold 20px/1 'Khula', sans-serif;
+        font: bold 20px/1 'Raleway', sans-serif;
         text-align: left;
         padding: 55px 70px 0px;
         margin-bottom: 15px; }
@@ -276,7 +277,7 @@ header {
     #grid article:nth-of-type(5) {
       height: 300px; }
       #grid article:nth-of-type(5) h2 {
-        font: bold 17px/1 'Khula', sans-serif;
+        font: bold 17px/1 'Raleway', sans-serif;
         text-align: center;
         padding: 50px 40px 0px;
         margin-bottom: 10px; }
@@ -291,7 +292,7 @@ header {
     #grid article:nth-of-type(7) {
       height: 300px; }
       #grid article:nth-of-type(7) h2 {
-        font: bold 17px/1 'Khula', sans-serif;
+        font: bold 17px/1 'Raleway', sans-serif;
         text-align: center;
         padding: 50px 40px 0px;
         margin-bottom: 10px; }
@@ -309,7 +310,7 @@ header {
     #grid article:nth-of-type(10) {
       height: 300px; }
       #grid article:nth-of-type(10) h2 {
-        font: bold 17px/1 'Khula', sans-serif;
+        font: bold 17px/1 'Raleway', sans-serif;
         text-align: center;
         padding: 50px 40px 0px;
         margin-bottom: 10px; }
@@ -328,7 +329,7 @@ header {
     #grid article:nth-of-type(14) {
       height: 300px; }
       #grid article:nth-of-type(14) h2 {
-        font: bold 17px/1 'Khula', sans-serif;
+        font: bold 17px/1 'Raleway', sans-serif;
         text-align: center;
         padding: 50px 40px 0px;
         margin-bottom: 10px; }
@@ -361,7 +362,7 @@ header {
       margin-right: 20px;
       margin-bottom: 30px;
       background: #fff;
-      box-shadow: 5px 5px 5px rgba(139, 139, 139, 0.3); }
+      box-shadow: 10px 10px 15px rgba(139, 139, 139, 0.1); }
       #news .inner article:nth-of-type(2n) {
         margin-right: 0px; }
       #news .inner article::after {
@@ -592,7 +593,7 @@ header {
     width: 100%;
     height: auto; }
     body #grid article:nth-of-type(2) h2 {
-      font: bold 18px/1 'Khula', sans-serif;
+      font: bold 18px/1 'Raleway', sans-serif;
       padding: 40px 40px 0px;
       margin-bottom: 10px; }
     body #grid article:nth-of-type(2) p {
@@ -602,7 +603,7 @@ header {
     width: 100%;
     height: auto; }
     body #grid article:nth-of-type(5) h2 {
-      font: bold 18px/1 'Khula', sans-serif;
+      font: bold 18px/1 'Raleway', sans-serif;
       padding: 40px 40px 0px;
       margin-bottom: 10px;
       text-align: left; }
@@ -616,7 +617,7 @@ header {
     width: 100%;
     height: auto; }
     body #grid article:nth-of-type(7) h2 {
-      font: bold 18px/1 'Khula', sans-serif;
+      font: bold 18px/1 'Raleway', sans-serif;
       padding: 40px 40px 0px;
       margin-bottom: 10px;
       text-align: left; }
@@ -643,7 +644,7 @@ header {
     width: 100%;
     height: auto; }
     body #grid article:nth-of-type(2) h2 {
-      font: bold 18px/1 'Khula', sans-serif;
+      font: bold 18px/1 'Raleway', sans-serif;
       padding: 40px 40px 0px;
       margin-bottom: 10px; }
     body #grid article:nth-of-type(2) p {
@@ -653,7 +654,7 @@ header {
     width: 100%;
     height: auto; }
     body #grid article:nth-of-type(5) h2 {
-      font: bold 18px/1 'Khula', sans-serif;
+      font: bold 18px/1 'Raleway', sans-serif;
       padding: 40px 40px 0px;
       margin-bottom: 10px;
       text-align: left; }
@@ -667,7 +668,7 @@ header {
     width: 100%;
     height: auto; }
     body #grid article:nth-of-type(7) h2 {
-      font: bold 18px/1 'Khula', sans-serif;
+      font: bold 18px/1 'Raleway', sans-serif;
       padding: 40px 40px 0px;
       margin-bottom: 10px;
       text-align: left; }
