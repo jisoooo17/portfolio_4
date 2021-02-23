@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Open+Sans:wght@300&family=Play&family=Raleway:wght@300&display=swap');
 @import "reset";
 
+#skipNavi a {
+    position: fixed; width: 100%; height: 30px; background: lightslategray; font: 14/30px "Noto Sans KR"; color: #fff; text-align: center; top: -30px; z-index: 10;
+}
+
 header {
     width:100%; box-sizing: border-box; padding: 15px; position: absolute; top: 4vh;left:0px; z-index:2; display: flex; flex-wrap: wrap; justify-content: space-between; 
 

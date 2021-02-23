@@ -24,6 +24,17 @@ input, a, button {
   top: -9999px;
   opacity: 0; }
 
+#skipNavi a {
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  background: lightslategray;
+  font: 14/30px "Noto Sans KR";
+  color: #fff;
+  text-align: center;
+  top: -30px;
+  z-index: 10; }
+
 header {
   width: 100%;
   box-sizing: border-box;
