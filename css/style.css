@@ -247,7 +247,7 @@ header {
     #grid article > div {
       width: 100%;
       height: 100%;
-      background: #25254e;
+      background: #1e1e3f;
       transition: 0.5s; }
       #grid article > div:hover {
         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1); }
@@ -308,10 +308,21 @@ header {
   padding: 100px 0px 150px;
   position: relative;
   z-index: 10;
-  background: #25254e; }
+  background: url(../img/news_bg.jpg) no-repeat center/cover; }
+  #news::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #1e1e3fc9; }
   #news .inner {
     width: 1180px;
-    margin: 0px auto; }
+    margin: 0px auto;
+    z-index: 12;
+    position: relative; }
     #news .inner h1 {
       font: bold 30px/1.5 'Raleway', sans-serif;
       margin-bottom: 30px;
@@ -326,8 +337,7 @@ header {
       float: left;
       margin-right: 20px;
       margin-bottom: 30px;
-      background: #fff;
-      box-shadow: 10px 10px 15px rgba(139, 139, 139, 0.1); }
+      background: #fff; }
       #news .inner article:nth-of-type(2n) {
         margin-right: 0px; }
       #news .inner article::after {
