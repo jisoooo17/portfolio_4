@@ -374,7 +374,7 @@ header {
 
 #footer {
   width: 100%;
-  background: #fff;
+  background: lightslategrey;
   padding: 100px 0px;
   z-index: 10;
   position: relative; }
@@ -387,7 +387,7 @@ header {
       #footer .inner .upper h1 {
         display: inline-block;
         font: 16px/1 'Khula', sans-serif;
-        color: #666;
+        color: #ccc;
         position: relative;
         margin-bottom: 40px; }
         #footer .inner .upper h1::after {
@@ -399,7 +399,7 @@ header {
           bottom: 0px;
           left: 0px;
           margin: -3px auto;
-          background: #aaa; }
+          background: #ccc; }
       #footer .inner .upper ul {
         width: 100%;
         text-align: center;
@@ -411,10 +411,10 @@ header {
             display: block;
             width: 75px;
             height: 75px;
-            border: 3px solid #666;
+            border: 3px solid #ddd;
             border-radius: 50%;
             font: bold 16px/75px 'Khula', sans-serif;
-            color: #666;
+            color: #ddd;
             box-sizing: content-box;
             margin-bottom: 7px; }
     #footer .inner .lower {
@@ -423,13 +423,13 @@ header {
       #footer .inner .lower p {
         width: 100%;
         font: 12px/1 "arial";
-        color: #aaa;
+        color: #ddd;
         text-align: center;
         margin-top: 50px;
         margin-bottom: 30px; }
       #footer .inner .lower i {
         font-size: 25px;
-        color: #555;
+        color: #ddd;
         width: 100%;
         text-align: center; }
 
