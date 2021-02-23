@@ -7,7 +7,7 @@
 }
 
 header {
-    width:100%; box-sizing: border-box; padding: 15px; position: absolute; top: 4vh;left:0px; z-index:2; display: flex; flex-wrap: wrap; justify-content: space-between; 
+    width:100%; box-sizing: border-box; padding: 15px; position: absolute; top: 4vh;left:0px; z-index:2; display: flex; flex-wrap: wrap; justify-content: space-between; z-index: 9;
 
     h1{
         font:bold 20px/1  'Raleway', sans-serif; margin: 0px 3vw; 
@@ -189,17 +189,17 @@ header {
         }
 
         >div {
-            width: 100%; height: 100%; background: #dbe9fa; transition: 0.5s;
+            width: 100%; height: 100%; background: #25254e; transition: 0.5s;
 
             &:hover {
                 box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1); 
             }
 
             h2 {
-                font: bold 20px/1 'Raleway', sans-serif; text-align: left;padding: 55px 70px 0px; margin-bottom: 15px;
+                font: bold 20px/1 'Raleway', sans-serif; text-align: left;padding: 55px 70px 0px; margin-bottom: 15px; color: #fff;
             }
             p {
-                font:  16px/1.4 'Khula', sans-serif;  text-align: left;padding: 0px 70px 0px; color: #555;
+                font:  16px/1.4 'Khula', sans-serif;  text-align: left;padding: 10px 70px 0px; color: #aaa;
             }
 
             img {
@@ -227,7 +227,7 @@ header {
                 font: bold 17px/1 'Raleway', sans-serif;  text-align: center;padding: 50px 40px 0px; margin-bottom: 10px;
             }
             p {
-                font:  14px/1.4 'Khula', sans-serif;  text-align: center;padding: 0px 40px 0px; color: #555;
+                font:  14px/1.4 'Khula', sans-serif;  text-align: center;padding: 10px 40px 0px; color: #aaa;
             }
         }
         &:nth-of-type(6) {
@@ -239,55 +239,20 @@ header {
                 font: bold 17px/1 'Raleway', sans-serif;  text-align: center;padding: 50px 40px 0px; margin-bottom: 10px;
             }
             p {
-                font:  14px/1.4 'Khula', sans-serif;  text-align: center;padding: 0px 40px 0px; color: #555;
+                font:  14px/1.4 'Khula', sans-serif;  text-align: center;padding: 10px 40px 0px; color: #aaa;
             }
-        }
-        &:nth-of-type(8) {
-            width: 50%; height: 300px;
-        }
-        &:nth-of-type(9) {
-            width: 50%; height: 600px;
-        }
-        &:nth-of-type(10) {
-            height: 300px;
-            h2 {
-                font: bold 17px/1 'Raleway', sans-serif;  text-align: center;padding: 50px 40px 0px; margin-bottom: 10px;
-            }
-            p {
-                font:  14px/1.4 'Khula', sans-serif;  text-align: center;padding: 0px 40px 0px; color: #555;
-            }
-        }
-        &:nth-of-type(11) {
-            height: 300px;
-        }
-        &:nth-of-type(12) {
-            width: 50%; height: 300px;
-        }
-        &:nth-of-type(13) {
-            height: 300px;
-            
-        }
-        &:nth-of-type(14) {
-            height: 300px;  
-            h2 {
-                font: bold 17px/1 'Raleway', sans-serif;  text-align: center;padding: 50px 40px 0px; margin-bottom: 10px;
-            }
-            p {
-                font:  14px/1.4 'Khula', sans-serif;  text-align: center;padding: 0px 40px 0px; color: #555;
-            }
-        }
-        
+        }        
     }        
 }
 
 #news {
-    padding: 100px 0px ; position: relative; z-index: 10; background: #dbe9fa;
+    padding: 100px 0px 150px; position: relative; z-index: 10; background: #25254e;
 
     .inner {
         width: 1180px; margin: 0px auto;
 
         h1 {
-            font: bold 30px/1.5 'Raleway', sans-serif; margin-bottom: 30px; text-align: center; color: #000;
+            font: bold 30px/1.5 'Raleway', sans-serif; margin-bottom: 30px; text-align: center; color: #fff;
         }
         
         &::after {
@@ -326,10 +291,10 @@ header {
                 width:440px; float: right;
 
                 h2 {
-                    font:bold 18px/1.5 'Raleway', sans-serif; margin-bottom: 5px; margin-top: 10px; 
+                    font:bold 16px/1.5 'Raleway', sans-serif; margin-bottom: 5px; margin-top: 14px; 
                 }
                 p {
-                    font:normal 14px/1.3 'arial', sans-serif;margin-bottom: 10px; width: 95%; 
+                    font:normal 14px/1.3 'Khula', sans-serif;margin-bottom: 15px; width: 95%; color: #555;
                 }
             }
 
@@ -362,7 +327,7 @@ header {
             width:100%; text-align:center;
 
             h1 {
-                display:inline-block; font: bold 16px/1 'Khula', sans-serif; color:#333; position: relative; margin-bottom: 40px;
+                display:inline-block; font: 16px/1 'Khula', sans-serif; color:#666; position: relative; margin-bottom: 40px;
 
                 &::after {
                     width: 100%; height: 1px; content: ""; display: block; position: absolute; bottom: 0px; left: 0px; margin: -3px auto; background: #aaa;
@@ -376,7 +341,7 @@ header {
                     display:inline-block; padding:0px 30px;
 
                     a {
-                        display: block; width: 75px; height: 75px; border: 3px solid #666; border-radius: 50%; font:bold 22px/75px 'arial', sans-serif; color:#666; box-sizing: content-box; margin-bottom: 7px;
+                        display: block; width: 75px; height: 75px; border: 3px solid #666; border-radius: 50%; font: bold 16px/75px 'Khula', sans-serif; color:#666; box-sizing: content-box; margin-bottom: 7px;
                     }
                 }
             }
@@ -646,7 +611,7 @@ header {
                 .upper {
         
                     h1 {
-                        font: bold 14px/1 'Khula', sans-serif;
+                        font: 14px/1 'Khula', sans-serif;
                     }
         
                     ul {
@@ -656,7 +621,7 @@ header {
                              padding:0px 20px;
         
                             a {
-                                width: 60px; height: 60px;  font:bold 18px/60px 'arial', sans-serif; 
+                                width: 60px; height: 60px;  font: bold 12px/60px 'Khula', sans-serif; 
                             }
                         }
                     }
