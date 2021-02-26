@@ -539,7 +539,11 @@ header {
             font: bold 16px/75px 'Khula', sans-serif;
             color: #fff;
             box-sizing: content-box;
-            margin-bottom: 7px; }
+            margin-bottom: 7px;
+            transition: 0.5s; }
+            #footer .inner .upper ul li a:hover {
+              background: #fff;
+              color: #000; }
     #footer .inner .lower {
       width: 100%;
       padding-top: 20px; }
