@@ -135,8 +135,20 @@ header {
       clear: both; }
     #info .inner h1 {
       font: bold 30px/1.5 'Raleway', sans-serif;
-      margin-bottom: 30px;
-      text-align: center; }
+      margin-bottom: 70px;
+      text-align: center;
+      position: relative; }
+      #info .inner h1::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 5%;
+        height: 1px;
+        margin: 60px auto;
+        background-color: #ddd; }
     #info .inner article {
       float: left;
       width: 280px;
@@ -325,9 +337,21 @@ header {
     position: relative; }
     #news .inner h1 {
       font: bold 30px/1.5 'Raleway', sans-serif;
-      margin-bottom: 30px;
+      margin-bottom: 70px;
       text-align: center;
-      color: #fff; }
+      color: #fff;
+      position: relative; }
+      #news .inner h1::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 5%;
+        height: 1px;
+        margin: 60px auto;
+        background-color: #ddd; }
     #news .inner::after {
       content: "";
       display: block;
