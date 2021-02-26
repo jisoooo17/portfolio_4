@@ -145,7 +145,7 @@ header {
         top: 0px;
         left: 50%;
         transform: translateX(-50%);
-        width: 5%;
+        width: 4%;
         height: 1px;
         margin: 60px auto;
         background-color: #ddd; }
@@ -265,7 +265,8 @@ header {
   #grid article {
     padding: 10px;
     box-sizing: border-box;
-    position: relative; }
+    position: relative;
+    cursor: pointer; }
     #grid article.item {
       height: 300px; }
     #grid article > div {
@@ -292,14 +293,68 @@ header {
         object-fit: cover; }
     #grid article:nth-of-type(1) {
       width: 50%;
-      height: 600px; }
+      height: 600px;
+      position: relative; }
+      #grid article:nth-of-type(1)::after {
+        content: " Fuga Dolorum Accusamus Animi";
+        display: flex;
+        width: 96%;
+        height: 96%;
+        position: absolute;
+        top: 2%;
+        left: 2%;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: 0.5s;
+        color: #fff;
+        font: 16px/1 "Raleway"; }
+      #grid article:nth-of-type(1):hover::after {
+        opacity: 1; }
     #grid article:nth-of-type(2) {
       width: 50%;
       height: 300px; }
     #grid article:nth-of-type(3) {
-      height: 300px; }
+      height: 300px;
+      position: relative; }
+      #grid article:nth-of-type(3)::after {
+        content: "Vitae Culpa Fugiat ";
+        display: flex;
+        width: 94%;
+        height: 94%;
+        position: absolute;
+        top: 3%;
+        left: 3%;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: 0.5s;
+        color: #fff;
+        font: 16px/1 "Raleway"; }
+      #grid article:nth-of-type(3):hover::after {
+        opacity: 1; }
     #grid article:nth-of-type(4) {
-      height: 300px; }
+      height: 300px;
+      position: relative; }
+      #grid article:nth-of-type(4)::after {
+        content: "Esse Aspernatur Expedita";
+        display: flex;
+        width: 94%;
+        height: 94%;
+        position: absolute;
+        top: 3%;
+        left: 3%;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: 0.5s;
+        color: #fff;
+        font: 16px/1 "Raleway"; }
+      #grid article:nth-of-type(4):hover::after {
+        opacity: 1; }
     #grid article:nth-of-type(5) {
       height: 300px; }
       #grid article:nth-of-type(5) h2 {
@@ -314,7 +369,25 @@ header {
         color: #aaa; }
     #grid article:nth-of-type(6) {
       width: 50%;
-      height: 300px; }
+      height: 300px;
+      position: relative; }
+      #grid article:nth-of-type(6)::after {
+        content: " Autem Itaque Praesentium Quis";
+        display: flex;
+        width: 96.6%;
+        height: 94%;
+        position: absolute;
+        top: 3%;
+        left: 1.7%;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: 0.5s;
+        color: #fff;
+        font: 16px/1 "Raleway"; }
+      #grid article:nth-of-type(6):hover::after {
+        opacity: 1; }
     #grid article:nth-of-type(7) {
       height: 300px; }
       #grid article:nth-of-type(7) h2 {
@@ -360,7 +433,7 @@ header {
         top: 0px;
         left: 50%;
         transform: translateX(-50%);
-        width: 5%;
+        width: 4%;
         height: 1px;
         margin: 60px auto;
         background-color: #ddd; }
@@ -373,7 +446,11 @@ header {
       float: left;
       margin-right: 20px;
       margin-bottom: 30px;
-      background: #fff; }
+      background: #fff;
+      cursor: pointer;
+      transition: 0.5s; }
+      #news .inner article:hover {
+        transform: scale(1.05); }
       #news .inner article:nth-of-type(2n) {
         margin-right: 0px; }
       #news .inner article::after {

@@ -106,7 +106,7 @@ header {
             font: bold 30px/1.5 'Raleway', sans-serif; margin-bottom: 70px; text-align: center; position: relative;
 
             &::after {
-                content: ""; display: block; position:absolute;top: 0px; left: 50%; transform: translateX(-50%); width: 5%; height: 1px; margin: 60px auto;background-color: #ddd;  
+                content: ""; display: block; position:absolute;top: 0px; left: 50%; transform: translateX(-50%); width: 4%; height: 1px; margin: 60px auto;background-color: #ddd;  
             }
         }
 
@@ -201,7 +201,7 @@ header {
     }
 
     article {
-        padding: 10px; box-sizing: border-box; position: relative; //float: left; 
+        padding: 10px; box-sizing: border-box; position: relative; cursor: pointer;
 
         &.item {
             height: 300px;
@@ -228,17 +228,49 @@ header {
         }
 
         &:nth-of-type(1) {
-            width: 50%; height: 600px;
+            width: 50%; height: 600px; position: relative;
+
+            &::after {
+            content: " Fuga Dolorum Accusamus Animi"; display: flex; width: 96%; height: 96%; position: absolute; top: 2%; left: 2%; justify-content: center; align-items: center; background: rgba(0,0,0,0.5); opacity: 0; transition: 0.5s; color: #fff;font: 16px/1 "Raleway";
+            }
+
+            &:hover {
+                &::after {
+                    opacity: 1;
+                }
+            }
         }
         &:nth-of-type(2) {
-            width: 50%; height: 300px;
+            width: 50%; height: 300px; 
         }
         &:nth-of-type(3) {
-            height: 300px;
+            height: 300px; position: relative;
+
+            &::after {
+            content: "Vitae Culpa Fugiat "; display: flex; width: 94%; height: 94%; position: absolute; top: 3%; left: 3%; justify-content: center; align-items: center; background: rgba(0,0,0,0.5); opacity: 0; transition: 0.5s; color: #fff; font: 16px/1 "Raleway";
+            }
+
+            &:hover {
+                &::after {
+                    opacity: 1;
+                }
+            }
         }
+
         &:nth-of-type(4) {
-            height: 300px;
+            height: 300px; position: relative;
+
+            &::after {
+            content: "Esse Aspernatur Expedita"; display: flex; width: 94%; height: 94%; position: absolute; top: 3%; left: 3%; justify-content: center; align-items: center; background: rgba(0,0,0,0.5); opacity: 0; transition: 0.5s; color: #fff;font: 16px/1 "Raleway";
+            }
+
+            &:hover {
+                &::after {
+                    opacity: 1;
+                }
+            }
         }
+
         &:nth-of-type(5) {
             height: 300px;
 
@@ -250,13 +282,26 @@ header {
             }
         }
         &:nth-of-type(6) {
-            width: 50%; height: 300px;
+            width: 50%; height: 300px; position: relative;
+
+            &::after {
+            content: " Autem Itaque Praesentium Quis"; display: flex; width: 96.6%; height: 94%; position: absolute; top: 3%; left: 1.7%; justify-content: center; align-items: center; background: rgba(0,0,0,0.5); opacity: 0; transition: 0.5s; color: #fff;font: 16px/1 "Raleway";
+            }
+
+            &:hover {
+                &::after {
+                    opacity: 1;
+                }
+            }
         }
+
         &:nth-of-type(7) {
             height: 300px;
+
             h2 {
                 font: bold 17px/1 'Raleway', sans-serif;  text-align: center;padding: 50px 40px 0px; margin-bottom: 10px;
             }
+
             p {
                 font:  14px/1.4 'Khula', sans-serif;  text-align: center;padding: 10px 40px 0px; color: #aaa;
             }
@@ -278,7 +323,7 @@ header {
             font: bold 30px/1.5 'Raleway', sans-serif; margin-bottom: 70px; text-align: center; color: #fff; position: relative;
 
             &::after {
-                content: ""; display: block; position:absolute;top: 0px; left: 50%; transform: translateX(-50%); width: 5%; height: 1px; margin: 60px auto;background-color: #ddd;  
+                content: ""; display: block; position:absolute;top: 0px; left: 50%; transform: translateX(-50%); width: 4%; height: 1px; margin: 60px auto;background-color: #ddd;  
             }
         }
         
@@ -287,7 +332,11 @@ header {
         }
     
         article {
-            width: 580px; float: left; margin-right: 20px; margin-bottom: 30px; background: #fff;//box-shadow: 10px 10px 20px rgba(252, 238, 238, 0.1);
+            width: 580px; float: left; margin-right: 20px; margin-bottom: 30px; background: #fff; cursor: pointer; transition: 0.5s;
+            
+            &:hover {
+                transform: scale(1.05); 
+            }
     
             &:nth-of-type(2n) {
                 margin-right: 0px;
@@ -336,12 +385,10 @@ header {
                     i {
                         margin-right:5px; font-size: 15px; color: #555;
                     }
-
                 }
             }
         }
     }
-    
 }
 
 #footer {
@@ -372,7 +419,6 @@ header {
                     }
                 }
             }
-           
         }
 
         .lower {
@@ -399,6 +445,7 @@ header {
             .par {
                 margin-top: -18vw; font-size: 14vw;
             }
+
             .top {
                 width: 16vw; 
                 height: 16vw;
@@ -452,9 +499,11 @@ header {
                         h3 {
                             font: bold 2.2vw/1.3 'arial', sans-serif; margin-bottom: 5px;
                         }
+
                         i {
                             font-size: 2vw;
                         }
+
                         p {
                             font: 1.8vw/1.3 'arial', sans-serif; 
                         }
@@ -483,6 +532,7 @@ header {
                 h1 {
                     width: 90%; font:2.4vw/1 'Raleway', sans-serif; 
                 }
+
                 a {
                     display: block; text-align:center; width: 80px; height: 25px; font: 12px/25px 'Raleway', sans-serif;  
                 }
@@ -496,12 +546,12 @@ header {
                 width: 33.333%; 
             }
     
-    
             article {
     
                 &:nth-of-type(1) {
                     width: 66.666%;
                 }
+
                 &:nth-of-type(2) {
                     width: 66.666%;
                 }
@@ -531,6 +581,7 @@ header {
                         h2 {
                             font:bold 2.3vw/1.5 'Raleway', sans-serif; margin-bottom: 10px; margin-top: 3vw; 
                         }
+
                         p {
                             font:normal 1.9vw/1.5 'arial', sans-serif;margin-bottom: 2vw; width: 90%;
                         }
@@ -547,12 +598,10 @@ header {
                             i {
                                 font-size: 1.7vw; 
                             }
-        
                         }
                     }
                 }
             }
-            
         }
     
         #footer {
@@ -591,39 +640,46 @@ header {
                 width: 50%; 
             }
     
-    
             article {
     
                 &:nth-of-type(1) {
                     width: 100%; 
                 }
+
                 &:nth-of-type(2) {
                     width: 100%; height: auto;
                     h2 {
                         font: bold 18px/1 'Raleway', sans-serif; padding: 40px 40px 0px; margin-bottom: 10px;
                     }
+
                     p {
                         font:  14px/1.4 'Khula', sans-serif;  padding: 0px 40px 40px; 
                     }
                 }
+
                 &:nth-of-type(5) {
                     width: 100%; height: auto;
+
                     h2 {
                         font: bold 18px/1 'Raleway', sans-serif; padding: 40px 40px 0px; margin-bottom: 10px;text-align: left;
                     }
+
                     p {
                         font:  14px/1.4 'Khula', sans-serif;  padding: 0px 40px 40px; text-align: left;
                     }
                 }
+
                 &:nth-of-type(6) {
                     width: 100%; 
                 }
+
                 &:nth-of-type(7) {
                     width: 100%; height: auto;
 
                     h2 {
                         font: bold 18px/1 'Raleway', sans-serif; padding: 40px 40px 0px; margin-bottom: 10px; text-align: left;
                     }
+
                     p {
                         font:  14px/1.4 'Khula', sans-serif;  padding: 0px 40px 40px; text-align: left;
                     }
@@ -645,7 +701,7 @@ header {
                         width:100%; 
         
                         li {
-                             padding:0px 20px;
+                            padding:0px 20px;
         
                             a {
                                 width: 60px; height: 60px;  font: bold 12px/60px 'Khula', sans-serif; 
@@ -662,7 +718,6 @@ header {
     body {
         
         #grid {
-           
             .sizer, .item { 
                 width: 100%; 
             }
@@ -674,28 +729,34 @@ header {
                     h2 {
                         font: bold 18px/1 'Raleway', sans-serif; padding: 40px 40px 0px; margin-bottom: 10px;
                     }
+
                     p {
                         font:  14px/1.4 'Khula', sans-serif;  padding: 0px 40px 40px; 
                     }
                 }
+
                 &:nth-of-type(5) {
                     width: 100%; height: auto;
                     h2 {
                         font: bold 18px/1 'Raleway', sans-serif; padding: 40px 40px 0px; margin-bottom: 10px;text-align: left;
                     }
+
                     p {
                         font:  14px/1.4 'Khula', sans-serif;  padding: 0px 40px 40px; text-align: left;
                     }
                 }
+
                 &:nth-of-type(6) {
                     width: 100%; 
                 }
+
                 &:nth-of-type(7) {
                     width: 100%; height: auto;
 
                     h2 {
                         font: bold 18px/1 'Raleway', sans-serif; padding: 40px 40px 0px; margin-bottom: 10px; text-align: left;
                     }
+
                     p {
                         font:  14px/1.4 'Khula', sans-serif;  padding: 0px 40px 40px; text-align: left;
                     }
@@ -713,11 +774,13 @@ header {
             .par {
                 margin-top: -30%; font-size: 7vh;
             }
+
             .top {
                 width: 15vh; 
                 height: 15vh;
                 top: 22%;
             }
+
             .middle { 
                 height: 70vh;
             }
@@ -759,9 +822,11 @@ header {
                         h3 {
                             font: bold 2.2vh/1.3 'arial', sans-serif; 
                         }
+
                         i {
                             font-size: 2vh;
                         }
+
                         p {
                             font: 1.8vh/1.3 'arial', sans-serif; 
                         }
@@ -800,7 +865,6 @@ header {
         }
 
         #news {
-        
             .inner {
 
                 h1 {
@@ -809,6 +873,7 @@ header {
             
                 article {
                     width: 100%;  position: relative;
+
                     .pic {
                         width: 27%; height: 10vh; margin-right: 3%;
                     }
@@ -819,6 +884,7 @@ header {
                         h2 {
                             font:bold 1.8vh/1.5 'Raleway', sans-serif; margin-bottom: 5px; margin-top: 1vh; 
                         }
+
                         p {
                            display: none;
                         }
@@ -833,12 +899,10 @@ header {
                             i {
                                 font-size: 1.7vw; 
                             }
-        
                         }
                     }
                 }
-            }
-            
+            }  
         }
     }
 }
