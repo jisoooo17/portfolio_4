@@ -174,9 +174,9 @@ header {
         bottom: 25px;
         left: 50%;
         transform: translateX(-50%);
-        padding: 7px 15px; }
+        padding: 10px 15px; }
         #info .inner article .box h3 {
-          font: bold 16px/1.3 'arial', sans-serif;
+          font: bold 14px/1.3 'Raleway', sans-serif;
           margin-bottom: 5px; }
         #info .inner article .box i {
           position: absolute;
@@ -188,8 +188,8 @@ header {
           #info .inner article .box i:hover {
             color: #000; }
         #info .inner article .box p {
-          font: 14px/1.4 'arial', sans-serif;
-          color: #555; }
+          font: 12px/1.4 'arial', sans-serif;
+          color: #777; }
       #info .inner article:nth-of-type(2) {
         height: 350px;
         background: url(../img/info1.jpg) no-repeat center/cover;
@@ -536,7 +536,7 @@ header {
             height: 75px;
             border: 3px solid #fff;
             border-radius: 50%;
-            font: bold 16px/75px 'Khula', sans-serif;
+            font: bold 12px/75px 'Khula', sans-serif;
             color: #fff;
             box-sizing: content-box;
             margin-bottom: 7px;
@@ -601,9 +601,9 @@ header {
           width: 90%;
           height: 30%;
           bottom: 6%;
-          padding: 10px 15px; }
+          padding: 12px 15px; }
           body #info .inner article .box h3 {
-            font: bold 2.2vw/1.3 'arial', sans-serif;
+            font: bold 2.2vw/1.3 'Raleway', sans-serif;
             margin-bottom: 5px; }
           body #info .inner article .box i {
             font-size: 2vw; }
@@ -676,7 +676,7 @@ header {
         body #footer .inner .upper ul li a {
           width: 60px;
           height: 60px;
-          font: bold 18px/60px 'arial', sans-serif; } }
+          font: normal 12px/60px 'arial', sans-serif; } }
 @media screen and (max-width: 999px) {
   body #grid .sizer, body #grid .item {
     width: 50%; }
@@ -725,7 +725,7 @@ header {
     body #footer .inner .upper ul {
       width: 100%; }
       body #footer .inner .upper ul li {
-        padding: 0px 20px; }
+        padding: 0px 10px; }
         body #footer .inner .upper ul li a {
           width: 60px;
           height: 60px;
